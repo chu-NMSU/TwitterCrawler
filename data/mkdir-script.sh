@@ -1,5 +1,6 @@
-for path in follower friend profile tweet
+for path in follower friend profile tweet friendList
 do
+    mkdir $path
     for dir in {0..9}
     do
 	mkdir $path'/'$dir
